@@ -1,0 +1,1 @@
+cat vnexpress_data.csv | grep -v "^#" | sed "1 d" | wc -l
